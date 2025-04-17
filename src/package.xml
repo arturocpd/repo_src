@@ -4,5 +4,9 @@
         <members>InsecureApexClass</members>
         <name>ApexClass</name>
     </types>
+    <types>
+        <members>VulnerableTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
     <version>63.0</version>
 </Package>
