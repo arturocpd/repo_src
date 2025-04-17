@@ -32,6 +32,7 @@ public class InsecureApexClass {
     }
 
     // ❌ Sensitive data logged (Security Issue)
+    // comment in dev1
     public static void logSensitiveInfo(String password) {
         System.debug('Entered password: ' + password); // Logging sensitive info
     }
